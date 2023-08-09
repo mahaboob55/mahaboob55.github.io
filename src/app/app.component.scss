@@ -1,0 +1,52 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    padding: 1rem 0rem 0.5rem 1rem;
+    margin-left: 1rem;
+}
+
+.nav-item,
+button {
+    margin-left: 1rem;
+}
+
+#dropdownMenuLink {
+    background-color: transparent !important;
+    color: rgb(11, 11, 137);
+    border: transparent !important;
+}
+
+.nav-item:nth-child(n),
+.nav-item:nth-child(n-1),
+.nav-item-last-2,
+.nav-item-last {
+    float: right;
+}
+
+.float-right {
+    float: right;
+    margin-left: 3rem;
+}
+
+header{
+    border-bottom: 2px solid rgb(188, 181, 181);
+}
+.container-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35%;
+    border-top: 2px solid rgb(188, 181, 181);
+}
+
+.flex-container{
+    top:50%;
+    left:50%;
+    transform: translate(-50% , -50%);
+    position: absolute;
+
+}
+
+.progress{
+    height: 5px !important;
+}
